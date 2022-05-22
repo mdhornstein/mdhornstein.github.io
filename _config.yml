@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+author: Michael Hornstein 
+email: mdhornstein@gmail.com
+description: > 
+  Professional blog, covering machine learning, statistics, and computation. 
+  
+# social links 
+github_username: mdhornstein
+
+theme: minima 
+
+show_excerpts: true 
