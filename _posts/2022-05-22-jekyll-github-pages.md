@@ -3,4 +3,8 @@ layout: post
 author: michael 
 --- 
 
-Jekyll allows you to make a website easily. 
+## Simple explanation of Jekyll 
+
+Jekyll takes an HTML snippet or markdown file as input, and transforms it into 
+
+![Jekyll diagram](/assets/images/jekyll_diagram.drawio.svg)
