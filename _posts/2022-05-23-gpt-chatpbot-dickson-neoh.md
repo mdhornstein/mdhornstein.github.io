@@ -16,10 +16,21 @@ https://telegram.org/faq#q-what-is-telegram-what-do-i-do-here
 * Telegram is a messaging app. 
 * "Telegram's API and code is open, and developers are welcome to create their own Telegram apps. We also have a Bot API, a platform for developers that allows anyone to easily build specialized tools for Telegram, integrate any services, and even accept payments from users around the world." 
 
+I need a Telegram account, so let's create one... I signed up for Telegram on Android. 
+
 Now we will follow the steps in this YouTube video to create a Telegram bot: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aNmRNjME6mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Here are my notes: 
+* BotFather is a Telegram account used to create bots. 
 
+Here are some additional notes from the Telegram reference on bots, (https://core.telegram.org/bots).
+* "Use the `/newbot` command to create a new bot. The BotFather will ask you for a name and username, then generate an authentication token for your new bot." 
+  * What name should I use? I chose "GPT Neoh Tutorial" 
+  * What username should I use? gpt_tutorial_from_neoh_bot
+    * The username must end in `bot`. 
+* The token is used to "authorize the bot and send requests to the Bot API." 
+  * I am not posting the token here, to protect my security. 
 
 ## Step 2: Install a Python library for the bot 
 
