@@ -32,9 +32,45 @@ Here are some additional notes from the Telegram reference on bots, (https://cor
 * The token is used to "authorize the bot and send requests to the Bot API." 
   * I am not posting the token here, to protect my security. 
 
+The bot API is defined here: https://core.telegram.org/bots/api
+* An API request is a URL of this form: https://api.telegram.org/bot<token>/METHOD_NAME
+
+* The API includes methods to read input from users and to send responses to users.  
+
+
+How is a bot different from a traditional web app? For both a bot and a web app, users send requests and receive responses. But for a bot, the interface is different. Users send requests through a chat interface. Furthermore, there is real time communication. 
+
 ## Step 2: Install a Python library for the bot 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🐍 Python Telegram Bot<br><br>Next, install a Telegram bot wrapper library👉python-telegram-bot (PTB).<br><br>Now, we can code our bot using Python!<a href="https://t.co/6MLC2kmxCB">https://t.co/6MLC2kmxCB</a></p>&mdash; Dickson Neoh 🚀 (@dicksonneoh7) <a href="https://twitter.com/dicksonneoh7/status/1527512984360087553?ref_src=twsrc%5Etfw">May 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## Hugging Face Spaces
+
+* Lets you host machine learning apps. 
+* Two SDKs: Streamlit and Gradio
+    * Gradio provides an interface for running ML models
+    * Streamlit is for more general apps
+* Code is stored in a Git repo
+* Spaces relies on GitHub actions, so we need to read about GitHub actions
+
+Hugging Face provides a space that makes it easier for you to create your own spaces.
+(https://huggingface.co/spaces/farukozderim/Model-Comparator-Space-Builder)
+
+## GitHub Actions
+(https://github.com/features/actions)
+
+(https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+* A workflow is an automated process
+* You can define a workflow with a yaml file
+* A workflow can run based on any of these conditions:
+    * Some event occurs that triggers the workflow
+    * Trigger manually
+    * Trigger at a predefined time
+* A workflow contains jobs, which executive on the same virtual machine, which means they can share data
+
+
+
 
 
 
