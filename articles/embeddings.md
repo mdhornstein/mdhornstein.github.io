@@ -1,5 +1,5 @@
 --- 
-layout: default_math
+layout: default
 --- 
 
 * $$3^2 + 9 + \int_3^5$$ 
