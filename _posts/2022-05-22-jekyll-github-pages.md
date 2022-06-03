@@ -10,4 +10,4 @@ Jekyll takes an HTML snippet or markdown file as input, and transforms it into
 ![Jekyll diagram](/assets/images/jekyll_diagram.drawio.svg)
 
 
-(/articles/embeddings.html)
+![subdirectory link](/articles/embeddings.html)
