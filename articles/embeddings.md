@@ -1,7 +1,7 @@
 --- 
 layout: default
 --- 
-The start of the article. 
+The start of the article. The second sentence. 
 
 <ul> 
   <li> $$3^2 + 9 + \int_3^5$$ </li> 
