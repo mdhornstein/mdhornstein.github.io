@@ -2,6 +2,10 @@
 layout: default_math 
 --- 
 
+Suppose we have a graph $$ G = (V, E) $$ where $V$ is the set of vertices and \( E \) is the set of edges. 
+
+The adjacency matrix 
+
 $$
  L = D - A 
 $$
