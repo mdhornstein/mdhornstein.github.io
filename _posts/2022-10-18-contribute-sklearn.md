@@ -1,5 +1,5 @@
 * [Working on an issue](#working-on-an-issue)
-* [Getting your changes "accepted"/merged](#Getting-your-changes-accepted)
+* [Getting your changes "accepted"/merged](#getting-your-changes-accepted)
 
 ## How to contribute 
 
@@ -52,7 +52,7 @@ In this section, we extract the relevant steps from the scikit-learn Contributin
 * "You will have to run the `pip install --no-build-isolation --editable .` command every time the source code of a Cython file is updated (ending in .pyx or .pxd). Use the --no-build-isolation flag to avoid compiling the whole project each time, only the files you have modified." 
 * Periodically synchronize your branch with the `upstream/main` branch, to pull in any changes that have been made to scikit-learn while you have been working on your branch. 
 
-### Getting your changes "accepted"/merged 
+### Getting your changes accepted
 
 * To update your code based on feedback, make changes locally, then push to your fork. 
 
