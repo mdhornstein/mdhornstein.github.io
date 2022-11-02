@@ -1,4 +1,5 @@
 [Working on an issue](#working-on-an-issue)
+[Getting your changes "accepted"/merged](#Getting-your-changes-"accepted"/merged)
 
 ## How to contribute 
 
