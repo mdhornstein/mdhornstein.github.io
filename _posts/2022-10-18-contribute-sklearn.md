@@ -13,41 +13,41 @@ In this section, we extract the relevant steps from the scikit-learn Contributin
     conda activate sklearn-dev
     ```
 * Build the project with Pip in Editable mode. 
-```
-make clean
-pip install --verbose --no-build-isolation --editable .
-```
+   ```
+   make clean
+   pip install --verbose --no-build-isolation --editable .
+   ```
 * Check that the scikit-learn version number ends with `.dev0` 
-```
-python -c "import sklearn; sklearn.show_versions()"
-```
+   ```
+   python -c "import sklearn; sklearn.show_versions()"
+   ```
 * Install development dependencies: `pip install pytest pytest-cov flake8 mypy numpydoc black==22.3.0`
 * Add the upstream remote: `git remote add upstream https://github.com/scikit-learn/scikit-learn.git` 
 * Check that the `upstream` and `origin` remotes are configured correctly by running `git remote -v` 
- * `upstream` is the alias for the sklearn repo 
- * `origin` is the alias for your fork of the repo 
+   * `upstream` is the alias for the sklearn repo 
+   * `origin` is the alias for your fork of the repo 
 * Synchronize your `main` branch with the `upstream/main` branch
-```
-git checkout main 
-git fetch upstream 
-git merge upstream/main 
-```
+   ```
+   git checkout main 
+   git fetch upstream 
+   git merge upstream/main 
+   ```
 * (Optional) Install pre-commmit hooks
-```
-pip install pre-commit 
-pre-commit install 
-```
+   ```
+   pip install pre-commit 
+   pre-commit install 
+   ```
 
 ### Working on an issue 
 * Create a branch for your changes: `git checkout -b my_feature` 
 * Make changes, then `add` and `commit` files: 
-```
-git add some_file 
-git commit -m "message" 
-```
+   ```
+   git add some_file 
+   git commit -m "message" 
+   ```
 * Push changes to your GitHub fork: `git push -u origin my_feature` 
-
 * "You will have to run the `pip install --no-build-isolation --editable .` command every time the source code of a Cython file is updated (ending in .pyx or .pxd). Use the --no-build-isolation flag to avoid compiling the whole project each time, only the files you have modified." 
+* Periodically synchronize your branch with the `upstream/main` branch, to pull in any changes that have been made to scikit-learn while you have been working on your branch. 
 
 ### Getting your changes "accepted"/merged 
 
@@ -57,16 +57,13 @@ git commit -m "message"
 https://scikit-learn.org/stable/developers/contributing.html
 
 * This is the scikit-learn project repository: https://github.com/scikit-learn/scikit-learn.
-  * To contribute, fork this repository. 
+   * To contribute, fork this repository. 
 * My fork of scikit-learn: https://github.com/mdhornstein/scikit-learn-github-tutorial
 * Clone the fork locally to disk: 
-```
-git clone https://github.com/mdhornstein/scikit-learn-github-tutorial
-```
-* Update conda: 
-```
-conda update conda 
-``` 
+   ```
+   git clone https://github.com/mdhornstein/scikit-learn-github-tutorial
+   ```
+* Update conda: `conda update conda`
 
 https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 * Viewing and adding remotes
