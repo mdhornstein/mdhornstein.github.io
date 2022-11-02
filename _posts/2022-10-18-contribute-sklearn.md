@@ -1,3 +1,5 @@
+[Working on an issue](#working-on-an-issue)
+
 ## How to contribute 
 
 In this section, we extract the relevant steps from the scikit-learn Contributing tutorial, and put them all in one place, sequentially. Most 
