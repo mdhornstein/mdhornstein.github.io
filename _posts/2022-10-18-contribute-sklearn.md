@@ -1,5 +1,5 @@
-[Working on an issue](#working-on-an-issue)
-[Getting your changes "accepted"/merged](#Getting-your-changes-"accepted"/merged)
+* [Working on an issue](#working-on-an-issue)
+* [Getting your changes "accepted"/merged](#Getting-your-changes-accepted)
 
 ## How to contribute 
 
