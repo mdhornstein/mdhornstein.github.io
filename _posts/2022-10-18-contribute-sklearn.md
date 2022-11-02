@@ -4,14 +4,14 @@ In this section, we extract the relevant steps from the scikit-learn Contributin
 
 ### Initial setup 
 * Fork the scikit-learn repo on GitHub ([here](https://github.com/scikit-learn/scikit-learn)). 
- * This creates a copy of the repo in **your** GitHub account. 
+    * This creates a copy of the repo in **your** GitHub account. 
 * Clone the repo to your local disk, using the URL visible in the Code dropdown menu in the upper right. 
 * (For mac OS) Create a virtual environment with the build dependencies and with a compiler with OpenMP support. 
-```
-conda create -n sklearn-dev -c conda-forge python numpy scipy cython \
-    joblib threadpoolctl pytest compilers llvm-openmp
-conda activate sklearn-dev
-```
+    ```
+    conda create -n sklearn-dev -c conda-forge python numpy scipy cython \
+        joblib threadpoolctl pytest compilers llvm-openmp
+    conda activate sklearn-dev
+    ```
 * Build the project with Pip in Editable mode. 
 ```
 make clean
