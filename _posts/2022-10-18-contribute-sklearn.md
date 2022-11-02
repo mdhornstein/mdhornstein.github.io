@@ -1,6 +1,57 @@
 ## How to contribute 
 
-* Fork the scikit-learn repo on GitHub ((https://github.com/scikit-learn/scikit-learn)[here])
+In this section, we extract the relevant steps from the scikit-learn Contributing tutorial, and put them all in one place, sequentially. Most 
+
+### Initial setup 
+* Fork the scikit-learn repo on GitHub ([here](https://github.com/scikit-learn/scikit-learn)). 
+ * This creates a copy of the repo in **your** GitHub account. 
+* Clone the repo to your local disk, using the URL visible in the Code dropdown menu in the upper right. 
+* (For mac OS) Create a virtual environment with the build dependencies and with a compiler with OpenMP support. 
+```
+conda create -n sklearn-dev -c conda-forge python numpy scipy cython \
+    joblib threadpoolctl pytest compilers llvm-openmp
+conda activate sklearn-dev
+```
+* Build the project with Pip in Editable mode. 
+```
+make clean
+pip install --verbose --no-build-isolation --editable .
+```
+* Check that the scikit-learn version number ends with `.dev0` 
+```
+python -c "import sklearn; sklearn.show_versions()"
+```
+* Install development dependencies: `pip install pytest pytest-cov flake8 mypy numpydoc black==22.3.0`
+* Add the upstream remote: `git remote add upstream https://github.com/scikit-learn/scikit-learn.git` 
+* Check that the `upstream` and `origin` remotes are configured correctly by running `git remote -v` 
+ * `upstream` is the alias for the sklearn repo 
+ * `origin` is the alias for your fork of the repo 
+* Synchronize your `main` branch with the `upstream/main` branch
+```
+git checkout main 
+git fetch upstream 
+git merge upstream/main 
+```
+* (Optional) Install pre-commmit hooks
+```
+pip install pre-commit 
+pre-commit install 
+```
+
+### Working on an issue 
+* Create a branch for your changes: `git checkout -b my_feature` 
+* Make changes, then `add` and `commit` files: 
+```
+git add some_file 
+git commit -m "message" 
+```
+* Push changes to your GitHub fork: `git push -u origin my_feature` 
+
+* "You will have to run the `pip install --no-build-isolation --editable .` command every time the source code of a Cython file is updated (ending in .pyx or .pxd). Use the --no-build-isolation flag to avoid compiling the whole project each time, only the files you have modified." 
+
+### Getting your changes "accepted"/merged 
+
+* To update your code based on feedback, make changes locally, then push to your fork. 
 
 
 https://scikit-learn.org/stable/developers/contributing.html
