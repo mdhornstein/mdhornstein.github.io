@@ -1,3 +1,8 @@
+--- 
+layout: post 
+author: michael 
+--- 
+
 # Contributing to scikit-learn 
 
 ## Table of contents 
