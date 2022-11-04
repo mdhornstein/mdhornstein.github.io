@@ -10,6 +10,9 @@ author: michael
    * [Initial setup](#initial-setup) 
    * [Working on an issue](#working-on-an-issue)
    * [Getting your changes "accepted"/merged](#getting-your-changes-accepted)
+* [Contributing to MatplotlibDeprecationWarnings issue 24797](#Contributing-to-MatplotlibDeprecationWarnings-issue-24797)
+  * [Install correct version of matplotlib](#Install-correct-version-of-matplotlib)
+  * [Fixing an issue](#Fixing-an-issue)
 
 ## How to contribute 
 
@@ -67,9 +70,9 @@ In this section, we extract the relevant steps from the scikit-learn Contributin
 * To update your code based on feedback, make changes locally, then push to your fork. 
 
 
-# Contributing to MatplotlibDeprecationWarnings issue 24797
+## Contributing to MatplotlibDeprecationWarnings issue 24797
 
-## Install correct version of matplotlib 
+### Install correct version of matplotlib 
 
 The issue is here: https://github.com/scikit-learn/scikit-learn/issues/24797.  
 
@@ -115,7 +118,7 @@ The issue is here: https://github.com/scikit-learn/scikit-learn/issues/24797.
   >>> matplotlib.__version__
   '3.6.1'
   ```
-## Fixing an issue  
+### Fixing an issue  
 
 * [This PR](https://github.com/scikit-learn/scikit-learn/pull/24809) shows an example of a successful fix. 
 * This is the file modified in the PR: examples/classification/plot_lda_qda.py
