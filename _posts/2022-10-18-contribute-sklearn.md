@@ -108,3 +108,42 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/workin
 * The repository 
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+
+# Contributing to MatplotlibDeprecationWarnings issue 24797
+
+The issue is here: https://github.com/scikit-learn/scikit-learn/issues/24797.  
+
+* "Contributors willing to address this issue, please offer one example per pull request."
+* I will use my local conda environment `sklearn-dev`. 
+* "Also be sure to install matplotlib 3.6.1 locally in order to reproduce the Warning."
+  * My sklearn-dev environment does not have matplotlib. So I need to install a specific version of matplotlib. 
+  * This reference shows how to install matplotlib: https://anaconda.org/conda-forge/matplotlib
+  * I need to run: `conda install -c conda-forge matplotlib=3.6.1` 
+  * Output is here: https://gist.github.com/mdhornstein/32e0138bc292313e3f98ab4cc24705e7
+* Generated a GitHub personal access token in Settings then Developer Settings. 
+* It appears that my matplotlib version is incorrect: 
+  ```
+  (sklearn-dev) na@Nas-MacBook-Pro scikit-learn-github-tutorial % python
+  Python 3.8.5 (default, Sep  4 2020, 02:22:02) 
+  [Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+  Type "help", "copyright", "credits" or "license" for more information.
+  >>> import matplotlib
+  >>> matplotlib.__version__
+  '3.3.2'
+  ```
+* We can use `conda list` to see a list of packages installed (see reference [here](https://docs.conda.io/projects/conda/en/latest/commands/list.html)). The format of the printout is as follows: 
+  ```
+  (sklearn-dev) na@Nas-MacBook-Pro scikit-learn-github-tutorial % conda list
+  # packages in environment at /Users/na/opt/anaconda3/envs/sklearn-dev:
+  #
+  # Name                    Version                   Build  Channel
+  alabaster                 0.7.12                   pypi_0    pypi
+  attrs                     22.1.0             pyh71513ae_1    conda-forge
+  ```
+* We can look specifically for the version of matplotlib: 
+  ```
+  (sklearn-dev) na@Nas-MacBook-Pro scikit-learn-github-tutorial % conda list | grep matplotlib
+  matplotlib                3.6.1           py310h2ec42d9_1    conda-forge
+  matplotlib-base           3.6.1           py310he725631_1    conda-forge
+  ```
