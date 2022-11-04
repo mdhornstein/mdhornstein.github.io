@@ -1,5 +1,10 @@
-* [Working on an issue](#working-on-an-issue)
-* [Getting your changes "accepted"/merged](#getting-your-changes-accepted)
+# Contributing to scikit-learn 
+
+## Table of contents 
+* [How to contribute](how-to-contribute)
+   * [Initial setup](initial-setup) 
+   * [Working on an issue](#working-on-an-issue)
+   * [Getting your changes "accepted"/merged](#getting-your-changes-accepted)
 
 ## How to contribute 
 
