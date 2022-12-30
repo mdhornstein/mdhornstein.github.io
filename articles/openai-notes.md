@@ -1,3 +1,7 @@
+--- 
+layout: default_math 
+--- 
+
 ## OpenAI Tutorial/Guide 
 
 ## Notes on Open AI website 

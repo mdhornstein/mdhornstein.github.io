@@ -1,4 +1,8 @@
 
+--- 
+layout: default
+--- 
+
 ## How to stream to YouTube from OBS.  
 1) In YouTube, click on the `Create` button, then `go live`. Edit the details/medatadata. 
 2) If you have not already entered the stream key in OBS, then in OBS, click on Settings, then select Stream in the menu on the left. Choose YouTube and enter the stream key. 
