@@ -2,6 +2,8 @@
 layout: default_math 
 --- 
 
+We discuss the OpenAI API. 
+
 ## OpenAI Tutorial/Guide 
 
 ## Notes on Open AI website 
