@@ -2,6 +2,20 @@
 layout: default 
 --- 
 
+### Finishing Projects 
+
+[Finish your projects](https://github.com/readme/guides/finish-your-projects) by Aaron Francis.  
+
+> There's no way around it: Finishing a project takes a certain amount of pure, unpleasant work. The first step is to embrace the fact that it won't be fun all the way through. You must become comfortable with the grind-it-out nature of the last 10% of a project. This is what separates people who finish from people who wish they could. 
+
+> Doing that last bit of work isn’t glamorous, there are no shortcuts, and there are no hacks. There’s only work. But let this be a comfort to you! No one accomplishes anything great without sitting down at their desk every day and fighting for it. 
+
+> Finishing is a skill, and you can hone it.
+
+### Publishing 
+
+[Publishing your work inceases your luck](https://github.com/readme/guides/publishing-your-work)
+
 [](https://www.gamedeveloper.com/programming/john-carmack-encourages-vr-devs-to-embrace-the-grind-)
 
 John Carmack 
