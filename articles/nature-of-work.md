@@ -12,6 +12,14 @@ layout: default
 
 > Finishing is a skill, and you can hone it.
 
+Spelunky book by Derek Yu 
+* "finishing is a skill as much as being able to design, draw, program, or make music, and that finished projects are more valuable than unfinished projects" 
+* "Use awards, competitions, and other events as real deadlines." 
+* "Push forward. Don't get hung up on one part of the game for too long." 
+* "Take care of your mental and physical health." 
+* "Remember that the last 10% is the last 90%. You're never as close to being finished as you think you are." 
+* "I'm obsessed with finishing as a skill. Over the years, I've realized that so many of the good things that have come my way are because I was able to finish what I started." 
+
 ### Publishing 
 
 [Publishing your work inceases your luck](https://github.com/readme/guides/publishing-your-work)
