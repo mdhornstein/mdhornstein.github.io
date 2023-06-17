@@ -2,7 +2,7 @@
 layout: default 
 --- 
 
-We provide interesting quotes and perspectives on the nature of work. 
+We provide interesting quotes and perspectives on the nature of work, including both technical and psychological aspects. 
 
 ### Finishing Projects 
 
