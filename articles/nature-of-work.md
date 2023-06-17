@@ -2,6 +2,8 @@
 layout: default 
 --- 
 
+We provide interesting quotes and perspectives on the nature of work. 
+
 ### Finishing Projects 
 
 [Finish your projects](https://github.com/readme/guides/finish-your-projects) by Aaron Francis.  
