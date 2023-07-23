@@ -6,6 +6,8 @@ We provide interesting quotes and perspectives on the nature of work, including 
 
 ### Finishing Projects 
 
+Is finishing a skill? If so, you can improve over time, and there are presumably 
+
 [Finish your projects](https://github.com/readme/guides/finish-your-projects) by Aaron Francis.  
 
 > There's no way around it: Finishing a project takes a certain amount of pure, unpleasant work. The first step is to embrace the fact that it won't be fun all the way through. You must become comfortable with the grind-it-out nature of the last 10% of a project. This is what separates people who finish from people who wish they could. 
