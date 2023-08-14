@@ -2,6 +2,32 @@
 layout: default 
 --- 
 
+We provide interesting quotes and perspectives on the nature of work, including both technical and psychological aspects. 
+
+### Finishing Projects 
+
+Is finishing a skill? If so, you can improve over time, and there are presumably 
+
+[Finish your projects](https://github.com/readme/guides/finish-your-projects) by Aaron Francis.  
+
+> There's no way around it: Finishing a project takes a certain amount of pure, unpleasant work. The first step is to embrace the fact that it won't be fun all the way through. You must become comfortable with the grind-it-out nature of the last 10% of a project. This is what separates people who finish from people who wish they could. 
+
+> Doing that last bit of work isn’t glamorous, there are no shortcuts, and there are no hacks. There’s only work. But let this be a comfort to you! No one accomplishes anything great without sitting down at their desk every day and fighting for it. 
+
+> Finishing is a skill, and you can hone it.
+
+Spelunky book by Derek Yu 
+* "finishing is a skill as much as being able to design, draw, program, or make music, and that finished projects are more valuable than unfinished projects" 
+* "Use awards, competitions, and other events as real deadlines." 
+* "Push forward. Don't get hung up on one part of the game for too long." 
+* "Take care of your mental and physical health." 
+* "Remember that the last 10% is the last 90%. You're never as close to being finished as you think you are." 
+* "I'm obsessed with finishing as a skill. Over the years, I've realized that so many of the good things that have come my way are because I was able to finish what I started." 
+
+### Publishing 
+
+[Publishing your work inceases your luck](https://github.com/readme/guides/publishing-your-work)
+
 [](https://www.gamedeveloper.com/programming/john-carmack-encourages-vr-devs-to-embrace-the-grind-)
 
 John Carmack 
